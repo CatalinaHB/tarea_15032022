@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+h1 {
+  text-align: center;
+  color: yellow;
+  margin: 20px;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(6, 1fr);
+}
+.caja {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+.azul {
+  background-color: azul;
+}
+.azul {
+  background-color: blue;
+}
+.rojo {
+  background-color: red;
+}
+.amarillo {
+  background-color: yellow;
+}
+.verde {
+  background-color: green;
+}
+.fucsia {
+  background-color: pink;
+}
+.gris {
+  background-color: gray;
+}
+.blanco {
+  background-color: white;
+}
+.naranjo {
+  background-color: orange;
+}
+.violeta {
+  background-color: violet;
+}
+.dorado {
+  background-color: gold;
+}
+.celeste {
+  background-color: lightblue;
+}
+.cafe {
+  background-color: brown;
+}
+footer {
+  margin: 20px;
+  background: linear-gradient(70deg, blue, red, white);
+}
